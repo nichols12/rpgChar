@@ -1,0 +1,25 @@
+{
+  "name": "rpgchar",
+  "version": "0.0.0",
+  "private": true,
+  "main":"./bin/www",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cookie-session": "^1.4.0",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.23",
+    "morgan": "~1.9.1",
+    "mysql": "github:mysqljs/mysql",
+    "mysql2": "^2.1.0",
+    "nodejs-password": "^1.0.2",
+    "nodemon": "^2.0.4",
+    "sequelize": "^6.3.1"
+  }
+}

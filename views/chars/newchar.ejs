@@ -1,0 +1,141 @@
+<%- include('../header') %> 
+<%- include('../sidebar') %>
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
+    
+    <h1 class="h2">Novo Personagem</h1>
+    <div class="d-flex justify-content-between flex-wrap
+        flex-md-nowrap align-items-center pt-3 pb-2 mb-3
+        border-bottom">
+    </div>
+    <form method="POST" action="">
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="race">Raça</label>
+                    <input type="text" name="race" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="alignment">Alinhamento</label>
+                    <input type="text" name="aligment" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="class">Classe/Nível</label>
+                    <input type="text" name="class" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="proeficiency_bonus">Bônus de Proeficiência</label>
+                    <input type="text" name="proeficiency_bonus" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="dice"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-hexagon-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z"/>
+                      </svg>Dado de Vida</label>
+                    <input type="text" name="dice" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="total_hitpoints"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                      </svg> Pontos de Vida</label>
+                    <input type="text" name="total_hitpoints" class="form-control">
+                </div>
+            </div>
+        </div>
+        
+        <div class="d-flex justify-content-between flex-wrap
+        flex-md-nowrap align-items-center pt-3 pb-2 mb-3
+        border-bottom">
+    </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="armor_class">Classe de Armacuda(CA)</label>
+                    <input type="text" name="armor_class" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="initiative">Iniciativa</label>
+                    <input type="text" name="initiative" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="speed">Deslocamento</label>
+                    <input type="text" name="speed" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="passive_wisdow">Percepição Passiva</label>
+                <input type="text" name="passive_wisdow" class="form-control">
+            </div>
+        </div>
+        <div class="d-flex justify-content-between flex-wrap
+        flex-md-nowrap align-items-center pt-3 pb-2 mb-3
+        border-bottom">
+    </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="strength">Força</label>
+                    <input type="text" name="strength" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="dextery">Destreza</label>
+                    <input type="text" name="dextery" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="contitution">Constituição</label>
+                    <input type="text" name="contitution" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="inteligence">Inteligência</label>
+                    <input type="text" name="inteligence" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="wisdom">Sabedoria</label>
+                    <input type="text" name="wisdom" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="charisma">Carisma</label>
+                    <input type="text" name="charisma" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="history">Historia</label>
+            <textarea class="form-control" name="history" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Salvar</button>
+    </form>
+</main>
+<%- include('../footer') %>

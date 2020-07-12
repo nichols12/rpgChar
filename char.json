@@ -1,0 +1,32 @@
+{
+    "name": "kodec",
+    "class":[
+        {"name":"Druida","Level":5},
+        {"name":"Guerreiro","Level":1}
+    ],
+    "race":"Elfo",
+    "alignment":"neutro-bom",
+    "strength":12,
+    "dextery":12,
+    "contitution":12,
+    "inteligence":12,
+    "wisdom":12,
+    "charisma":12,
+    "proeficiency_bonus":3,
+    "inspiration":true,
+    "savin_trows":[
+        "Strenght",
+        "Dexterity"
+    ],
+    "skils":[
+        "acrobatics",
+        "nature"
+    ],
+    "passive_wisdow":12,
+    "armor_class":16,
+    "initiative":2,
+    "speed":"9m",
+    "total_hitpoints":25,
+    "dice":"1d8",
+    "history":""
+}
